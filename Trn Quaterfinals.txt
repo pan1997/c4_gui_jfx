@@ -1,0 +1,97 @@
+TRNMENT 1
+0-NSex
+1 Ns
+2 CC44 2.0
+3 C4_2 1
+
+Tournament Started
+Match ended between 0 1 result 1 wins
+Red(0) time 32792 Blue(1) time 35809
+0::		-		
+1::	+			
+2::				
+3::				
+
+Match ended between 0 2 result 0 wins
+Red(0) time 26004 Blue(2) time 54358
+0::		-	+	
+1::	+			
+2::	-			
+3::				
+
+Match ended between 0 3 result 0 wins
+Red(0) time 27047 Blue(3) time 77042
+0::		-	+	+
+1::	+			
+2::	-			
+3::	-			
+
+Match ended between 1 0 result 0 wins
+Red(1) time 57705 Blue(0) time 35997
+0::		-+	+	+
+1::	+-			
+2::	-			
+3::	-			
+
+Match ended between 1 2 result 1 wins
+Red(1) time 43340 Blue(2) time 69100
+0::		-+	+	+
+1::	+-		+	
+2::	-	-		
+3::	-			
+
+Match ended between 1 3 result 1 wins
+Red(1) time 46067 Blue(3) time 79241
+0::		-+	+	+
+1::	+-		+	+
+2::	-	-		
+3::	-	-		
+
+Match ended between 2 0 result 0 wins
+Red(2) time 43459 Blue(0) time 31421
+0::		-+	++	+
+1::	+-		+	+
+2::	--	-		
+3::	-	-		
+
+Match ended between 2 1 result 2 wins
+Red(2) time 48030 Blue(1) time 39478
+0::		-+	++	+
+1::	+-		+-	+
+2::	--	-+		
+3::	-	-		
+
+Match ended between 2 3 result 2 wins
+Red(2) time 32267 Blue(3) time 80793
+0::		-+	++	+
+1::	+-		+-	+
+2::	--	-+		+
+3::	-	-	-	
+
+Match ended between 3 0 result 0 wins
+Red(3) time 17550 Blue(0) time 17440
+0::		-+	++	++
+1::	+-		+-	+
+2::	--	-+		+
+3::	--	-	-	
+
+Match ended between 3 1 result 1 wins
+Red(3) time 26282 Blue(1) time 15693
+0::		-+	++	++
+1::	+-		+-	++
+2::	--	-+		+
+3::	--	--	-	
+
+Match ended between 3 2 result 2 wins
+Red(3) time 26805 Blue(2) time 34941
+0::		-+	++	++
+1::	+-		+-	++
+2::	--	-+		++
+3::	--	--	--	
+
+Final result
+0::		-+	++	++     NSex    5.0
+1::	+-		+-	++     Ns      4.0
+2::	--	-+		++	   CC442.0 3.0
+3::	--	--	--	       C4_2    0.0
+
