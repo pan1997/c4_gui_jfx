@@ -11,8 +11,6 @@ import java.io.PrintWriter;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import javafx.animation.Interpolator;
 import javafx.animation.PathTransition;
@@ -107,8 +105,7 @@ public class C4UIBoard extends Pane {
 		try {
 			Thread.sleep(500);
 		} catch (InterruptedException ex) {
-			Logger.getLogger(C4UIBoard.class.getName()).log(Level.SEVERE,
-					null, ex);
+			//System.Logger::log(System.Logger.Level.ERROR, ex);
 		}
 		// t.titleProperty().unbind();
 		t.titleProperty().bind(g.messageProperty());
@@ -393,8 +390,8 @@ public class C4UIBoard extends Pane {
 				l.await();
 				return ans;
 			} catch (InterruptedException ex) {
-				Logger.getLogger(C4UIBoard.class.getName()).log(Level.SEVERE,
-						null, ex);
+				//Logger.getLogger(C4UIBoard.class.getName()).log(Level.SEVERE,
+				//		null, ex);
 			}
 			return 0;
 		}

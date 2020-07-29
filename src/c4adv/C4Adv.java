@@ -8,7 +8,6 @@ package c4adv;
 
 import static c4adv.C4UIBoard.rad;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
@@ -94,13 +93,13 @@ public class C4Adv extends Application {
 		player p2=null,p3=null,p4=null;
 		try{
 			p2=new externalPlayer("./lyanna");
-			//p3=new externalPlayer("./lyanna3.1");
+			p3=new externalPlayer("./c4_mcts");
 			//p4=new externalPlayer("./lyanna3");
 		}catch(Exception e){
 			System.out.println("Error");
 			System.out.println(e);
 		}
-		b.startGame(p0,null,primaryStage,500);
+		//b.startGame(p3,p2,primaryStage,5000);
 		//b.startGame(p4,p1,primaryStage,500);
 	    //b.startGame(p0,null,primaryStage,500);
 		Text txt=new Text("");
@@ -113,9 +112,9 @@ public class C4Adv extends Application {
 		//String st[]={"3433","3433","3444","3444","4435","4435","4343","4343","6424","6424","0123","0123","4243","4243","4423","4423","5335","5335","3443","3443","1717","1717"};
 		//String st[]={"4423","4423","5335","5335","3443","3443","1717","1717"};
 		//String cont[]={"3444","3444"};
-		//String st[]={"6424","6424","0123","0123","4243","4243"};
+		String[] st={"6424","6424","0123","0123","4243","4243"};
 	    //String st[]={"44","44","34","34","22","22","14","14","58","58"};
-		//b.startFaceoff(primaryStage, txt,5000,5000,p0, p2, st);
+		b.startFaceoff(primaryStage, txt,5000,5000,p3, p2, st);
 	}/*
 	static void print(String s)
 	{
